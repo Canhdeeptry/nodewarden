@@ -40,11 +40,11 @@ tag = "v2-backup-transfer-runner"
 new_sqlite_classes = [ "BackupTransferRunner" ]
 
 [observability]
-enabled = true
+enabled = false
 head_sampling_rate = 1
 
 [observability.logs]
-enabled = true
+enabled = false
 head_sampling_rate = 1
 persist = true
 invocation_logs = true
